@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+* {
+    margin: 0;
+}
+
 body {
     font-family: Roboto, sans-serif;
 }
 
-/* Header Portion of the styling */
+/* Header portion of the styling */
 
 header {
     display: flex;
@@ -37,7 +41,7 @@ nav a:hover {
     color: #7f8fa5;
 }
 
-/* Hero Portion of the Styling */
+/* Hero portion of the styling */
 
 .hero {
     display: flex;
@@ -87,7 +91,7 @@ nav a:hover {
     height: 80%;
 }
 
-/* Information Section with Cards */
+/* Information section with cards */
 
 .info-section {
     padding: 60px 200px;
@@ -124,11 +128,39 @@ nav a:hover {
     border: 4px solid #3882f6;
     border-radius: 12px;
     object-fit: cover;
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 }
 
 .card-image p {
     color: #1F2937;
     font-size: 18px;
-    line-height: 1.6;
+    line-height: 1.2;
+}
+
+/* Quote section */
+
+.quote-section {
+    background-color: #e5e7eb;
+    padding: 100px 200px;
+}
+
+.quote-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    margin: 0 0 16px 0;
+    padding: 0 60px;
+}
+
+.quote-author {
+    text-align: right;
+    font-size: 25px;
+    color: #1F2937;
+    margin: 0;
+    font-weight: 900;
 }
